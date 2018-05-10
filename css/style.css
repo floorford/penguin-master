@@ -5886,12 +5886,15 @@ button.close {
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 body {
-  padding-bottom: 40px;
-  background-image: url(picnic.jpg); }
+  padding-bottom: 40px; }
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+.pengbutton {
+  width: 32%;
+  min-width: 50px; }
+
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -5915,7 +5918,9 @@ body {
 -------------------------------------------------- */
 /*Gray scaling on carousel*/
 .carousel-control.right, .carousel-control.left {
-  bottom: 100px; }
+  bottom: 100px;
+  display: flex;
+  justify-content: space-around; }
 
 .carousel-control {
   opacity: 1; }
