@@ -10,8 +10,7 @@ html {
   -ms-text-size-adjust: 100%; }
 
 body {
-  margin: 0;
-  background-image: url(picnic.jpg); }
+  margin: 0; }
 
 article,
 aside,
@@ -5882,6 +5881,7 @@ button.close {
     display: none !important; } }
 
 /*# sourceMappingURL=bootstrap.css.map */
+<<<<<<< HEAD
 .gallery-container {
   display: grid;
   grid-template-rows: 33% 33% 33%;
@@ -5925,17 +5925,24 @@ button.close {
   margin-bottom: 5%;
   text-align: center;
   font-size: 4em; }
+.index-body {
+  background-color: grey;
+  background-image: url("images/fresh-snow.png"); }
+
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 body {
-  padding-bottom: 40px;
-  background-image: url(picnic.jpg); }
+  padding-bottom: 40px; }
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+.pengbutton {
+  width: 32%;
+  min-width: 50px; }
+
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -5959,15 +5966,16 @@ body {
 -------------------------------------------------- */
 /*Gray scaling on carousel*/
 .carousel-control.right, .carousel-control.left {
-  bottom: 100px; }
+  bottom: 100px;
+  display: flex;
+  justify-content: space-around; }
 
 .carousel-control {
   opacity: 1; }
 
 /* Carousel base class */
 .carousel {
-  height: 600px;
-  margin-bottom: 60px; }
+  height: 600px; }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {

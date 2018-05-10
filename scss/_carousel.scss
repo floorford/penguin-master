@@ -4,7 +4,6 @@
 
 body {
   padding-bottom: 40px;
-  background-image: url(picnic.jpg);
 }
 
 
@@ -13,6 +12,12 @@ body {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.pengbutton {
+  width: 32%;
+  min-width: 50px;
+}
+
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -41,6 +46,8 @@ body {
 /*Gray scaling on carousel*/
 .carousel-control.right, .carousel-control.left {
   bottom: 100px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .carousel-control {
@@ -50,7 +57,6 @@ body {
 /* Carousel base class */
 .carousel {
   height: 600px;
-  margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
