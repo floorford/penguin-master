@@ -8,10 +8,10 @@ let concat = require('gulp-concat');
 let uglify = require('gulp-uglify-es').default;
 
 gulp.task('sass', function () {
-    var stream = gulp.src('./scss/styles.scss')
+    var stream = gulp.src('./scss/style.scss')
         .pipe(sass())
         .pipe(gulp.dest('./css/'))
-        .pipe(rename('styles.css'));
+        .pipe(rename('style.css'));
     return stream;
 });
 
