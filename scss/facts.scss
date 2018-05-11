@@ -10,6 +10,7 @@
 	// justify-content: center;
 	width: 500px;
 	height: 300px;
+	margin: 0 auto;
 }
 
 .factp {
@@ -19,8 +20,14 @@
 }
 
 .factmain {
-	margin-top: 80px;
 	display: flex;
-	align-content: center;
+	justify-content: center;
+	margin-top: 80px;
+	div {
+		width: 80%;
+	}
+	img, p {
+		display: block;
+	}
 }
 
