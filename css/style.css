@@ -5884,8 +5884,7 @@ button.close {
 .gallery-container {
   display: grid;
   grid-template-rows: 33% 33% 33%;
-  grid-template-columns: 50% 50%;
-  grid-column-gap: 5%; }
+  grid-template-columns: 50% 50%; }
 
 .gallery-left-div1 {
   grid-column: 1/2;
@@ -5918,17 +5917,20 @@ button.close {
   margin: 1.5em; }
 
 .gallery-pic {
-  width: 80%; }
+  width: 100%; }
 
 #gallery-header {
   margin-bottom: 5%;
   font-family: 'Delius Unicase', cursive;
   margin-top: 10%;
   text-align: center;
-  font-size: 4em; }
-  @media only screen and (max-width: 991px) {
+  font-size: 3em; }
+  @media only screen and (max-width: 1999px) {
     #gallery-header {
       margin-top: 125px; } }
+  @media only screen and (max-width: 767px) {
+    #gallery-header {
+      margin-top: 80px; } }
 
 .nav-color {
   background-color: #7ba5f8;
@@ -6129,6 +6131,7 @@ body {
       max-width: 80%; } }
 
 #contact-heading {
+  margin-top: 1em;
   margin-bottom: 1em;
   font-family: 'Delius Unicase', cursive; }
 

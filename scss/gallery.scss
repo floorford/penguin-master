@@ -3,7 +3,6 @@
 	display: grid;
 	grid-template-rows: 33% 33% 33%;
 	grid-template-columns: 50% 50%;
-	grid-column-gap: 5%;
 	// padding: 10px 40px 40px 40px;
 
 
@@ -49,7 +48,7 @@
 }
 
 .gallery-pic {
-	width: 80%;
+	width: 100%;
 
 
 }
@@ -59,8 +58,11 @@
 	font-family: 'Delius Unicase', cursive;
 	margin-top: 10%;
 	text-align: center;
-	font-size: 4em;
-	@media only screen and (max-width: 991px) {
+	font-size: 3em;
+	@media only screen and (max-width: 1999px) {
     margin-top: 125px;
+  }
+	@media only screen and (max-width: 767px) {
+    margin-top: 80px;
   }
 }
