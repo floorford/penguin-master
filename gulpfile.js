@@ -26,7 +26,7 @@ gulp.task('styles', function(callback){
 	gulpSequence('sass', 'minify-css')(callback)
 });
 
-let js_files = ['js/bootstrap.js', 'js/scrollTop.js'];
+let js_files = ['js/bootstrap.js', 'js/scrollTop.js', 'js/quiz.js'];
 
 gulp.task('compile-js', () => {
   return gulp.src(js_files)
@@ -35,7 +35,7 @@ gulp.task('compile-js', () => {
 });
 
 gulp.task('minify-js', () => {
-  return gulp.src('js/al.js')
+  return gulp.src('js/all.js')
     .pipe(uglify())
     .pipe(rename('all.min.js'))
     .pipe(gulp.dest('./js/'));
