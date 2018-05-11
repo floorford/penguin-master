@@ -3,3 +3,24 @@
   background-image: url("../images/fresh_snow.png");
   background-blend-mode: hard-light;
 }
+
+.carousel-caption a {
+  @media only screen and (max-width: 590px) {
+    font-size: 15px;
+  }
+  @media only screen and (max-width: 414px) {
+    font-size: 12px;
+  }
+}
+
+.carousel, .item {
+  @media only screen and (max-width: 414px) {
+    height: 500px;
+  }
+}
+
+.item image{
+  @media only screen and (max-width: 414px) {
+    height: 314px;
+  }
+}

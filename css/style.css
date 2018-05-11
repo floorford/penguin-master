@@ -5964,10 +5964,9 @@ button.close {
 .navbar-brand, .navbar-nav {
   font-family: 'Delius Unicase', cursive; }
 
-.index-body {
-  background-color: grey;
-  background-image: url("../images/fresh_snow.png");
-  background-blend-mode: hard-light; }
+@media only screen and (max-width: 414px) {
+  .navbar-brand {
+    font-size: 15px; } }
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -6084,6 +6083,27 @@ body {
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px; } }
+
+.index-body {
+  background-color: grey;
+  background-image: url("../images/fresh_snow.png");
+  background-blend-mode: hard-light; }
+
+@media only screen and (max-width: 590px) {
+  .carousel-caption a {
+    font-size: 15px; } }
+
+@media only screen and (max-width: 414px) {
+  .carousel-caption a {
+    font-size: 12px; } }
+
+@media only screen and (max-width: 414px) {
+  .carousel, .item {
+    height: 500px; } }
+
+@media only screen and (max-width: 414px) {
+  .item image {
+    height: 314px; } }
 
 .factmain h1 {
   font-size: 50px;
