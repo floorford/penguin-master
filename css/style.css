@@ -5925,11 +5925,17 @@ button.close {
   margin-top: 10%;
   text-align: center;
   font-size: 4em; }
+  @media only screen and (max-width: 991px) {
+    #gallery-header {
+      margin-top: 125px; } }
 
 .index-body {
   background-color: grey;
   background-image: url("../images/fresh_snow.png");
   background-blend-mode: hard-light; }
+
+#contact-heading {
+  margin-top: 17em; }
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -6089,3 +6095,6 @@ body {
 .map {
   border: 10px solid aliceblue;
   margin-bottom: 2%; }
+
+#contact-heading {
+  background: red; }
