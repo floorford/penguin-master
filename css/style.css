@@ -5931,6 +5931,9 @@ button.close {
   background-image: url("../images/fresh_snow.png");
   background-blend-mode: hard-light; }
 
+#contact-heading {
+  margin-top: 17em; }
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -6047,6 +6050,13 @@ body {
   .featurette-heading {
     margin-top: 120px; } }
 
+h1 {
+  font-size: 60px;
+  justify-content: center; }
+
+.background {
+  background-image: url("../images/fresh_snow.png"); }
+
 .factimg {
   width: 500px;
   height: 300px;
@@ -6089,3 +6099,6 @@ body {
 .map {
   border: 10px solid aliceblue;
   margin-bottom: 2%; }
+
+#contact-heading {
+  background: red; }
