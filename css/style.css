@@ -6047,28 +6047,19 @@ body {
   .featurette-heading {
     margin-top: 120px; } }
 
-<<<<<<< HEAD
-.factscontainer {
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-  grid-template-columns: repeat(3, auto);
-  max-width: 1200px;
-  margin: 0 auto; }
-
-img {
-  display: grid;
+.factimg {
   width: 500px;
-  height: 300px;
-  grid-column: 2; }
+  height: 300px; }
 
-p {
+.factp {
   font-family: 'PT Sans', sans-serif;
   font-size: 15px; }
 
-main {
-  margin-top: 80px; }
-=======
+.factmain {
+  margin-top: 80px;
+  display: flex;
+  align-content: center; }
+
 .map-main {
   margin-top: 110px;
   text-align: center; }
->>>>>>> 35c51d9530c2d6269c670efa0b6f746ba5080742
