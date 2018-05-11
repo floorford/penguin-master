@@ -6049,3 +6049,24 @@ body {
 .map-main {
   margin-top: 110px;
   text-align: center; }
+  @media only screen and (max-width: 991px) {
+    .map-main {
+      margin-top: 125px; } }
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 100%; }
+
+.map {
+  border: 10px solid aliceblue;
+  margin-bottom: 2%; }
