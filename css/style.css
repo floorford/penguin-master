@@ -5922,6 +5922,7 @@ button.close {
 
 #gallery-header {
   margin-bottom: 5%;
+  font-family: 'Delius Unicase', cursive;
   margin-top: 10%;
   text-align: center;
   font-size: 4em; }
@@ -5934,13 +5935,13 @@ button.close {
   background-image: url("../images/silver_scales.png");
   background-blend-mode: luminosity; }
 
+.navbar-brand, .navbar-nav {
+  font-family: 'Delius Unicase', cursive; }
+
 .index-body {
   background-color: grey;
   background-image: url("../images/fresh_snow.png");
   background-blend-mode: hard-light; }
-
-#contact-heading {
-  margin-top: 17em; }
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -6102,4 +6103,4 @@ body {
   margin-bottom: 2%; }
 
 #contact-heading {
-  background: red; }
+  font-family: 'Delius Unicase', cursive; }
