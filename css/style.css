@@ -5890,32 +5890,32 @@ button.close {
 .gallery-left-div1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  margin: 2em; }
+  margin: 1.5em; }
 
 .gallery-left-div2 {
   grid-column: 1/2;
   grid-row: 2/3;
-  margin: 2em; }
+  margin: 1.5em; }
 
 .gallery-left-div3 {
   grid-column: 1/2;
   grid-row: 3/4;
-  margin: 2em; }
+  margin: 1.5em; }
 
 .gallery-right-div1 {
   grid-column: 2/3;
   grid-row: 1/2;
-  margin: 2em; }
+  margin: 1.5em; }
 
 .gallery-right-div2 {
   grid-column: 2/3;
   grid-row: 2/3;
-  margin: 2em; }
+  margin: 1.5em; }
 
 .gallery-right-div3 {
   grid-column: 2/3;
   grid-row: 3/4;
-  margin: 2em; }
+  margin: 1.5em; }
 
 .gallery-pic {
   width: 80%; }
