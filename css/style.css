@@ -5943,9 +5943,6 @@ button.close {
   background-image: url("../images/fresh_snow.png");
   background-blend-mode: hard-light; }
 
-#contact-heading {
-  margin-top: 17em; }
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -6120,34 +6117,11 @@ body {
   margin-bottom: 2%; }
 
 #contact-heading {
-<<<<<<< HEAD
-  background: red; }
-
-.quiz {
-  position: relitive;
-  display: block;
-  margin-top: 100px;
-  margin-left: 150px;
-  font-size: 25px; }
-  .quiz p {
-    font-size: 40px;
-    color: #003E53; }
-
-.question2 {
-  margin-top: 30px; }
-
-.question1 {
-  margin-top: 30px; }
-
-.question3 {
-  margin-top: 30px; }
-
-.question4 {
-  margin-top: 30px; }
-=======
-<<<<<<< HEAD
-  margin-top: 5em;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-family: 'Delius Unicase', cursive; }
+  @media only screen and (max-width: 991px) {
+    #contact-heading {
+      margin-top: 125px; } }
 
 #fish-question {
   margin-right: 5em;
@@ -6159,11 +6133,20 @@ body {
 #radio-form {
   margin-top: 1em;
   margin-bottom: 2em; }
-=======
+
+.quiz {
+  position: relitive;
+  display: block;
+  margin-top: 200px;
+  margin-left: 150px;
+  font-size: 25px;
   font-family: 'Delius Unicase', cursive; }
-  @media only screen and (max-width: 991px) {
-    #contact-heading {
-      margin-top: 125px; } }
+  .quiz p {
+    font-size: 40px;
+    color: #003E53; }
+
+.question2, .question2, .question3, .question4 {
+  margin-top: 30px; }
 
 footer {
   background-color: #7ba5f8;
@@ -6172,5 +6155,3 @@ footer {
 
 footer p {
   font-family: 'Delius Unicase', cursive; }
->>>>>>> 16089dca786ede82f3b95d5446d80c96c2986faf
->>>>>>> 7e2dfc4ab0d52a57a88a8937a5cbbbf14b71ecaa
