@@ -5885,36 +5885,57 @@ button.close {
   display: grid;
   grid-template-rows: 33% 33% 33%;
   grid-template-columns: 50% 50%; }
+  @media only screen and (max-width: 767px) {
+    .gallery-container {
+      grid-template-columns: 1fr; } }
 
 .gallery-left-div1 {
   grid-column: 1/2;
   grid-row: 1/2;
   margin: 1.5em; }
+  @media only screen and (max-width: 767px) {
+    .gallery-left-div1 {
+      grid-area: 1/1; } }
 
 .gallery-left-div2 {
   grid-column: 1/2;
   grid-row: 2/3;
   margin: 1.5em; }
+  @media only screen and (max-width: 767px) {
+    .gallery-left-div2 {
+      grid-area: 2/1; } }
 
 .gallery-left-div3 {
   grid-column: 1/2;
   grid-row: 3/4;
   margin: 1.5em; }
+  @media only screen and (max-width: 767px) {
+    .gallery-left-div3 {
+      grid-area: 3/1; } }
 
 .gallery-right-div1 {
   grid-column: 2/3;
   grid-row: 1/2;
   margin: 1.5em; }
+  @media only screen and (max-width: 767px) {
+    .gallery-right-div1 {
+      grid-area: 4/1; } }
 
 .gallery-right-div2 {
   grid-column: 2/3;
   grid-row: 2/3;
   margin: 1.5em; }
+  @media only screen and (max-width: 767px) {
+    .gallery-right-div2 {
+      grid-area: 5/1; } }
 
 .gallery-right-div3 {
   grid-column: 2/3;
   grid-row: 3/4;
   margin: 1.5em; }
+  @media only screen and (max-width: 767px) {
+    .gallery-right-div3 {
+      grid-area: 6/1; } }
 
 .gallery-pic {
   width: 100%; }
@@ -5931,6 +5952,9 @@ button.close {
   @media only screen and (max-width: 767px) {
     #gallery-header {
       margin-top: 80px; } }
+  @media only screen and (max-width: 414px) {
+    #gallery-header {
+      margin-top: 125px; } }
 
 .nav-color {
   background-color: #7ba5f8;
@@ -5940,10 +5964,9 @@ button.close {
 .navbar-brand, .navbar-nav {
   font-family: 'Delius Unicase', cursive; }
 
-.index-body {
-  background-color: grey;
-  background-image: url("../images/fresh_snow.png");
-  background-blend-mode: hard-light; }
+@media only screen and (max-width: 414px) {
+  .navbar-brand {
+    font-size: 15px; } }
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -6061,6 +6084,34 @@ body {
   .featurette-heading {
     margin-top: 120px; } }
 
+.index-body {
+  background-color: grey;
+  background-image: url("../images/fresh_snow.png");
+  background-blend-mode: hard-light; }
+
+@media only screen and (max-width: 590px) {
+  .carousel-caption a {
+    font-size: 15px; } }
+
+@media only screen and (max-width: 414px) {
+  .carousel-caption a {
+    font-size: 12px; } }
+
+.carousel {
+  margin-bottom: 50px; }
+
+@media only screen and (max-width: 414px) {
+  .carousel .item {
+    background-image: url("../images/snowflake.jpg"); } }
+
+@media only screen and (max-width: 414px) {
+  .blend {
+    mix-blend-mode: hard-light; } }
+
+@media only screen and (max-width: 414px) {
+  .carousel-inner > .item > img {
+    height: 314px; } }
+
 .factmain h1 {
   font-size: 50px;
   font-family: 'Delius Unicase', cursive;
@@ -6071,6 +6122,9 @@ body {
   @media only screen and (max-width: 768px) {
     .factmain h1 {
       margin-top: 30px; } }
+  @media only screen and (max-width: 608px) {
+    .factmain h1 {
+      font-size: 25px; } }
 
 .background {
   background-image: url("../images/fresh_snow.png"); }
@@ -6079,6 +6133,9 @@ body {
   width: 500px;
   height: 300px;
   margin: 0 auto; }
+  @media only screen and (max-width: 608px) {
+    .factimg {
+      max-width: 80%; } }
 
 .factp {
   font-family: 'PT Sans', sans-serif;
@@ -6156,17 +6213,34 @@ body {
 .quiz {
   position: relative;
   display: block;
-  margin-top: 200px;
+  margin-top: 170px;
   margin-left: 150px;
   font-family: 'Delius Unicase', cursive; }
+  @media only screen and (max-width: 1098px) {
+    .quiz {
+      margin-left: 125px; } }
+  @media only screen and (max-width: 822px) {
+    .quiz {
+      margin-left: 90px; } }
+  @media only screen and (max-width: 767px) {
+    .quiz {
+      margin-left: 50px;
+      margin-top: 100px; } }
   .quiz h1 {
-    font-size: 3em; }
+    font-size: 2.5em;
+    margin-bottom: 40px; }
   .quiz p {
     font-size: 30px;
     color: #003E53; }
+    @media only screen and (max-width: 991px) {
+      .quiz p {
+        font-size: 20px; } }
 
 .question {
   display: block; }
+
+.question4 {
+  margin-bottom: 10%; }
 
 footer {
   background-color: #7ba5f8;

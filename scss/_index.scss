@@ -4,6 +4,34 @@
   background-blend-mode: hard-light;
 }
 
-body {
-	cursor: URL(../images/penguin.cur);
+.carousel-caption a {
+  @media only screen and (max-width: 590px) {
+    font-size: 15px;
+  }
+  @media only screen and (max-width: 414px) {
+    font-size: 12px;
+  }
 }
+
+.carousel {
+  margin-bottom: 50px;
+}
+
+.carousel .item {
+  @media only screen and (max-width: 414px) {
+    background-image: url("../images/snowflake.jpg");
+  }
+}
+
+.blend {
+  @media only screen and (max-width: 414px) {
+    mix-blend-mode: hard-light;
+  }
+}
+
+.carousel-inner>.item>img {
+  @media only screen and (max-width: 414px) {
+    height: 314px;
+  }
+}
+
