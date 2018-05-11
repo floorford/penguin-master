@@ -5884,8 +5884,7 @@ button.close {
 .gallery-container {
   display: grid;
   grid-template-rows: 33% 33% 33%;
-  grid-template-columns: 50% 50%;
-  grid-column-gap: 5%; }
+  grid-template-columns: 50% 50%; }
 
 .gallery-left-div1 {
   grid-column: 1/2;
@@ -5918,17 +5917,20 @@ button.close {
   margin: 1.5em; }
 
 .gallery-pic {
-  width: 80%; }
+  width: 100%; }
 
 #gallery-header {
   margin-bottom: 5%;
   font-family: 'Delius Unicase', cursive;
   margin-top: 10%;
   text-align: center;
-  font-size: 4em; }
-  @media only screen and (max-width: 991px) {
+  font-size: 3em; }
+  @media only screen and (max-width: 1999px) {
     #gallery-header {
       margin-top: 125px; } }
+  @media only screen and (max-width: 767px) {
+    #gallery-header {
+      margin-top: 80px; } }
 
 .nav-color {
   background-color: #7ba5f8;
@@ -6063,9 +6065,12 @@ body {
   font-size: 50px;
   font-family: 'Delius Unicase', cursive;
   justify-content: center; }
-  @media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 1999px) {
     .factmain h1 {
       margin-top: 60px; } }
+  @media only screen and (max-width: 768px) {
+    .factmain h1 {
+      margin-top: 30px; } }
 
 .background {
   background-image: url("../images/fresh_snow.png"); }
@@ -6091,12 +6096,17 @@ body {
 .map-main {
   margin-top: 110px;
   text-align: center; }
-  @media only screen and (max-width: 991px) {
-    .map-main {
-      margin-top: 125px; } }
 
 .map-main h1, .map-main h3 {
   font-family: 'Delius Unicase', cursive; }
+
+@media only screen and (max-width: 1119px) {
+  .map-title {
+    margin-top: 150px; } }
+
+@media only screen and (max-width: 767px) {
+  .map-title {
+    margin-top: 70px; } }
 
 .video-container {
   position: relative;
@@ -6115,13 +6125,21 @@ body {
 .map {
   border: 10px solid #7ba5f8;
   margin-bottom: 2%; }
+  @media only screen and (max-width: 519px) {
+    .map {
+      margin-top: 10px;
+      max-width: 80%; } }
 
 #contact-heading {
+  margin-top: 1em;
   margin-bottom: 1em;
   font-family: 'Delius Unicase', cursive; }
-  @media only screen and (max-width: 991px) {
-    #contact-heading {
-      margin-top: 125px; } }
+
+.contact-main {
+  margin: 120px 70px 70px 70px; }
+  @media only screen and (max-width: 1119px) {
+    .contact-main {
+      margin-top: 150px; } }
 
 #fish-question {
   margin-right: 5em;

@@ -1,8 +1,13 @@
 #contact-heading {
-	margin-bottom: 1em;
+margin-top: 1em;
+margin-bottom: 1em;
 	font-family: 'Delius Unicase', cursive;
-	@media only screen and (max-width: 991px) {
-		margin-top: 125px;
+}
+
+.contact-main {
+	margin: 120px 70px 70px 70px;
+	@media only screen and (max-width: 1119px) {
+		margin-top: 150px;
 	}
 }
 
