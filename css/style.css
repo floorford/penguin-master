@@ -6156,17 +6156,34 @@ body {
 .quiz {
   position: relative;
   display: block;
-  margin-top: 200px;
+  margin-top: 170px;
   margin-left: 150px;
   font-family: 'Delius Unicase', cursive; }
+  @media only screen and (max-width: 1098px) {
+    .quiz {
+      margin-left: 125px; } }
+  @media only screen and (max-width: 822px) {
+    .quiz {
+      margin-left: 90px; } }
+  @media only screen and (max-width: 767px) {
+    .quiz {
+      margin-left: 50px;
+      margin-top: 100px; } }
   .quiz h1 {
-    font-size: 3em; }
+    font-size: 2.5em;
+    margin-bottom: 40px; }
   .quiz p {
     font-size: 30px;
     color: #003E53; }
+    @media only screen and (max-width: 991px) {
+      .quiz p {
+        font-size: 20px; } }
 
 .question {
   display: block; }
+
+.question4 {
+  margin-bottom: 10%; }
 
 footer {
   background-color: #7ba5f8;
