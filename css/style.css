@@ -6063,9 +6063,12 @@ body {
   font-size: 50px;
   font-family: 'Delius Unicase', cursive;
   justify-content: center; }
-  @media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 1999px) {
     .factmain h1 {
       margin-top: 60px; } }
+  @media only screen and (max-width: 768px) {
+    .factmain h1 {
+      margin-top: 30px; } }
 
 .background {
   background-image: url("../images/fresh_snow.png"); }
@@ -6091,12 +6094,17 @@ body {
 .map-main {
   margin-top: 110px;
   text-align: center; }
-  @media only screen and (max-width: 991px) {
-    .map-main {
-      margin-top: 125px; } }
 
 .map-main h1, .map-main h3 {
   font-family: 'Delius Unicase', cursive; }
+
+@media only screen and (max-width: 1119px) {
+  .map-title {
+    margin-top: 150px; } }
+
+@media only screen and (max-width: 767px) {
+  .map-title {
+    margin-top: 70px; } }
 
 .video-container {
   position: relative;
@@ -6115,6 +6123,10 @@ body {
 .map {
   border: 10px solid #7ba5f8;
   margin-bottom: 2%; }
+  @media only screen and (max-width: 519px) {
+    .map {
+      margin-top: 10px;
+      max-width: 80%; } }
 
 #contact-heading {
   margin-bottom: 1em;

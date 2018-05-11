@@ -1,13 +1,19 @@
 .map-main {
   margin-top: 110px;
-  @media only screen and (max-width: 991px) {
-    margin-top: 125px;
-  }
   text-align: center;
 }
 
 .map-main h1, .map-main h3 {
   font-family: 'Delius Unicase', cursive;
+}
+
+.map-title {
+  @media only screen and (max-width: 1119px) {
+    margin-top: 150px;
+  }
+  @media only screen and (max-width: 767px) {
+    margin-top: 70px;
+  }
 }
 
 .video-container {
@@ -29,4 +35,8 @@
 .map {
   border: 10px solid rgb(123, 165, 248);
   margin-bottom: 2%;
+  @media only screen and (max-width: 519px) {
+    margin-top: 10px;
+    max-width:80%;
+  }
 }

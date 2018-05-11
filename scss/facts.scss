@@ -3,8 +3,11 @@
 	font-size: 50px;
 	font-family: 'Delius Unicase', cursive;
 	justify-content: center;
-	@media only screen and (max-width: 991px) {
+	@media only screen and (max-width: 1999px) {
 		margin-top: 60px;
+	}
+	@media only screen and (max-width: 768px) {
+		margin-top: 30px;
 	}
 }
 
