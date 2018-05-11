@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.map-main h1, .map-main h3 {
+  font-family: 'Delius Unicase', cursive;
+}
+
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
@@ -23,6 +27,6 @@
 }
 
 .map {
-  border: 10px solid aliceblue;
+  border: 10px solid rgb(123, 165, 248);
   margin-bottom: 2%;
 }

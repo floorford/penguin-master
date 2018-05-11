@@ -1,7 +1,11 @@
 
-h1 {
-	font-size: 60px;
+.factmain h1 {
+	font-size: 50px;
+	font-family: 'Delius Unicase', cursive;
 	justify-content: center;
+	@media only screen and (max-width: 991px) {
+		margin-top: 60px;
+	}
 }
 
 .background {
@@ -33,4 +37,3 @@ h1 {
 		display: block;
 	}
 }
-
