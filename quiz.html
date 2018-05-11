@@ -7,11 +7,10 @@
     <title>Penguin Quiz!</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-		<link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
 <!--     <link rel="stylesheet" href="../css/customisations.css"> -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -48,34 +47,34 @@
 <div class ="quiz">
 <div class="question1" id="question1">
     <p>1. Where do penguins live?</p>
-    <label for="q1">In the Southern Hemisphere</label>
-    <input name="q1" id="q1" type="radio" value="great">
-    <label for="q1">In the Northen Hemisphere</label>
-    <input name="q1" id="q1" type="radio" value="love-it">
+    <label class="question" for="q1">In the Southern Hemisphere</label>
+    <input id="answer" name="q1" type="radio" value="correct">
+    <label class="question" for="q1">In the Northen Hemisphere</label>
+    <input id="answer" name="q1" type="radio" value="wrong">
 </div>
 
 <div class="question2" id="question2">
     <p>2. Do penguins mate for life?</p>
-    <label for="q2">Yes</label>
-    <input name="q2" id="q2" type="radio" value="great">
-    <label for="q2">No</label>
-    <input name="q2" id="q2" type="radio" value="love-it">
+    <label class="question" for="q2">Yes</label>
+    <input name="q2" id="q2" type="radio" value="correct">
+    <label class="question" for="q2">No</label>
+    <input name="q2" id="q2" type="radio" value="wrong">
 </div>
 
 <div class="question3" id="question3">
     <p>3. How many species of penguin are there?</p>
-    <label for="q3">11</label>
-    <input name="q3" id="q3" type="radio" value="great">
-    <label for="q3">17</label>
-    <input name="q3" id="love-it" type="radio" value="love-it">
+    <label class="question" for="q3">11</label>
+    <input name="q3" id="q3" type="radio" value="wrong">
+    <label class="question" for="q3">17</label>
+    <input name="q3" id="love-it" type="radio" value="correct">
 </div>
 
 <div class="question4" id="question4">
     <p>4. Are penguins....</p>
-    <label for="q4">Mammals</label>
-    <input name="q4" id="great" type="radio" value="great">
-    <label for="q4">Birds</label>
-    <input name="q4" id="love-it" type="radio" value="love-it">
+    <label class="question" for="q4">Mammals</label>
+    <input name="q4" id="great" type="radio" value="wrong">
+    <label class="question" for="q4">Birds</label>
+    <input name="q4" id="love-it" type="radio" value="correct">
 </div>
 
 </div>

@@ -1,22 +1,20 @@
 
 .quiz {
-	position: relitive;
+	position: relative;
 	display:block;
 	margin-top:200px;
 	margin-left: 150px;
-	font-size: 25px;
 	font-family: 'Delius Unicase', cursive;
-	p {
-		font-size: 40px;
-		color: #003E53;
-		
+	h1 {
+		font-size: 3em;
 	}
+	p {
+		font-size: 30px;
+		color: #003E53;
 
+	}
 }
 
-.question2, .question2, .question3, .question4, {
-	margin-top: 30px;
+.question {
+	display: block;
 }
-
-
-
