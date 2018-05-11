@@ -4,12 +4,17 @@
 	display:block;
 	margin-top:200px;
 	margin-left: 150px;
-	font-size: 18px;
 	font-family: 'Delius Unicase', cursive;
+	h1 {
+		font-size: 3em;
+	}
 	p {
-		font-size: 40px;
+		font-size: 30px;
 		color: #003E53;
 
 	}
+}
 
+.question {
+	display: block;
 }
