@@ -5922,9 +5922,21 @@ button.close {
 
 #gallery-header {
   margin-bottom: 5%;
+  font-family: 'Delius Unicase', cursive;
   margin-top: 10%;
   text-align: center;
   font-size: 4em; }
+  @media only screen and (max-width: 991px) {
+    #gallery-header {
+      margin-top: 125px; } }
+
+.nav-color {
+  background-color: #7ba5f8;
+  background-image: url("../images/silver_scales.png");
+  background-blend-mode: luminosity; }
+
+.navbar-brand, .navbar-nav {
+  font-family: 'Delius Unicase', cursive; }
 
 .index-body {
   background-color: grey;
@@ -6050,6 +6062,17 @@ body {
   .featurette-heading {
     margin-top: 120px; } }
 
+.factmain h1 {
+  font-size: 50px;
+  font-family: 'Delius Unicase', cursive;
+  justify-content: center; }
+  @media only screen and (max-width: 991px) {
+    .factmain h1 {
+      margin-top: 60px; } }
+
+.background {
+  background-image: url("../images/fresh_snow.png"); }
+
 .factimg {
   width: 500px;
   height: 300px;
@@ -6075,6 +6098,9 @@ body {
     .map-main {
       margin-top: 125px; } }
 
+.map-main h1, .map-main h3 {
+  font-family: 'Delius Unicase', cursive; }
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -6090,10 +6116,11 @@ body {
   height: 100%; }
 
 .map {
-  border: 10px solid aliceblue;
+  border: 10px solid #7ba5f8;
   margin-bottom: 2%; }
 
 #contact-heading {
+<<<<<<< HEAD
   margin-top: 5em;
   margin-bottom: 1em; }
 
@@ -6107,3 +6134,17 @@ body {
 #radio-form {
   margin-top: 1em;
   margin-bottom: 2em; }
+=======
+  font-family: 'Delius Unicase', cursive; }
+  @media only screen and (max-width: 991px) {
+    #contact-heading {
+      margin-top: 125px; } }
+
+footer {
+  background-color: #7ba5f8;
+  background-image: url("../images/silver_scales.png");
+  background-blend-mode: luminosity; }
+
+footer p {
+  font-family: 'Delius Unicase', cursive; }
+>>>>>>> 16089dca786ede82f3b95d5446d80c96c2986faf

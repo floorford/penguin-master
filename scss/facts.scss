@@ -1,10 +1,16 @@
 
-// .factscontainer {
-// 	display: flex;
-// 	justify-content: center;
-// }
+.factmain h1 {
+	font-size: 50px;
+	font-family: 'Delius Unicase', cursive;
+	justify-content: center;
+	@media only screen and (max-width: 991px) {
+		margin-top: 60px;
+	}
+}
 
-
+.background {
+	background-image: url("../images/fresh_snow.png");
+}
 
 .factimg {
 	// justify-content: center;
@@ -20,6 +26,7 @@
 }
 
 .factmain {
+
 	display: flex;
 	justify-content: center;
 	margin-top: 80px;
@@ -30,4 +37,3 @@
 		display: block;
 	}
 }
-
