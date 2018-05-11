@@ -9,6 +9,9 @@
 	@media only screen and (max-width: 768px) {
 		margin-top: 30px;
 	}
+	@media only screen and (max-width: 608px) {
+		font-size: 25px;
+	}
 }
 
 .background {
@@ -20,6 +23,9 @@
 	width: 500px;
 	height: 300px;
 	margin: 0 auto;
+	@media only screen and (max-width: 608px) {
+		max-width: 80%;
+	}
 }
 
 .factp {

@@ -2,19 +2,36 @@
 .quiz {
 	position: relative;
 	display:block;
-	margin-top:200px;
+	margin-top:170px;
 	margin-left: 150px;
+	@media only screen and (max-width: 1098px) {
+		margin-left: 125px;
+	}
+	@media only screen and (max-width: 822px) {
+		margin-left: 90px;
+	}
+	@media only screen and (max-width: 767px) {
+		margin-left: 50px;
+		margin-top: 100px;
+	}
 	font-family: 'Delius Unicase', cursive;
 	h1 {
-		font-size: 3em;
+		font-size: 2.5em;
+		margin-bottom: 40px;
 	}
 	p {
 		font-size: 30px;
 		color: #003E53;
-
+		@media only screen and (max-width: 991px) {
+			font-size: 20px;
+		}
 	}
 }
 
 .question {
 	display: block;
+}
+
+.question4 {
+	margin-bottom: 10%;
 }
