@@ -6155,23 +6155,15 @@ body {
 .quiz {
   position: relitive;
   display: block;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-left: 150px;
-  font-size: 25px; }
+  font-size: 25px;
+  font-family: 'Delius Unicase', cursive; }
   .quiz p {
     font-size: 40px;
     color: #003E53; }
 
-.question2 {
-  margin-top: 30px; }
-
-.question1 {
-  margin-top: 30px; }
-
-.question3 {
-  margin-top: 30px; }
-
-.question4 {
+.question2, .question2, .question3, .question4 {
   margin-top: 30px; }
 
 footer {
