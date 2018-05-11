@@ -1,3 +1,6 @@
 #contact-heading {
 	font-family: 'Delius Unicase', cursive;
+	@media only screen and (max-width: 991px) {
+		margin-top: 125px;
+	}
 }

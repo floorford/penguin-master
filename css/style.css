@@ -6111,3 +6111,6 @@ h1 {
 
 #contact-heading {
   font-family: 'Delius Unicase', cursive; }
+  @media only screen and (max-width: 991px) {
+    #contact-heading {
+      margin-top: 125px; } }
