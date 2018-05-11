@@ -3932,8 +3932,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc; }
 
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808; }
+  background-color: #7ba5f8;
+  border-color: #7ba5f8; }
 
 .navbar-inverse .navbar-brand {
   color: #777; }
@@ -3958,7 +3958,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808; }
+  background-color: #7ba5f8; }
 
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -3984,7 +3984,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #fff;
-  background-color: #080808; }
+  background-color: #7ba5f8; }
 
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
@@ -4001,7 +4001,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-color: #080808; }
+    background-color: #7ba5f8; }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -6121,6 +6121,31 @@ body {
 
 #contact-heading {
 <<<<<<< HEAD
+  background: red; }
+
+.quiz {
+  position: relitive;
+  display: block;
+  margin-top: 100px;
+  margin-left: 150px;
+  font-size: 25px; }
+  .quiz p {
+    font-size: 40px;
+    color: #003E53; }
+
+.question2 {
+  margin-top: 30px; }
+
+.question1 {
+  margin-top: 30px; }
+
+.question3 {
+  margin-top: 30px; }
+
+.question4 {
+  margin-top: 30px; }
+=======
+<<<<<<< HEAD
   margin-top: 5em;
   margin-bottom: 1em; }
 
@@ -6148,3 +6173,4 @@ footer {
 footer p {
   font-family: 'Delius Unicase', cursive; }
 >>>>>>> 16089dca786ede82f3b95d5446d80c96c2986faf
+>>>>>>> 7e2dfc4ab0d52a57a88a8937a5cbbbf14b71ecaa
