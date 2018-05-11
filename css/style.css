@@ -6097,6 +6097,9 @@ body {
   .carousel-caption a {
     font-size: 12px; } }
 
+.carousel {
+  margin-bottom: 50px; }
+
 @media only screen and (max-width: 414px) {
   .carousel .item {
     background-image: url("../images/snowflake.jpg"); } }
