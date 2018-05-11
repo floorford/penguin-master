@@ -6059,9 +6059,12 @@ body {
   .featurette-heading {
     margin-top: 120px; } }
 
-h1 {
-  font-size: 60px;
+.factmain h1 {
+  font-size: 50px;
   justify-content: center; }
+  @media only screen and (max-width: 991px) {
+    .factmain h1 {
+      margin-top: 60px; } }
 
 .background {
   background-image: url("../images/fresh_snow.png"); }
