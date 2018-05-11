@@ -19,7 +19,11 @@
   }
 }
 
-
+.blend {
+  @media only screen and (max-width: 414px) {
+    mix-blend-mode: hard-light;
+  }
+}
 
 .carousel-inner>.item>img {
   @media only screen and (max-width: 414px) {
