@@ -6098,11 +6098,11 @@ body {
     font-size: 12px; } }
 
 @media only screen and (max-width: 414px) {
-  .carousel, .item {
-    height: 500px; } }
+  .carousel .item {
+    background-image: url("../images/snowflake.jpg"); } }
 
 @media only screen and (max-width: 414px) {
-  .item image {
+  .carousel-inner > .item > img {
     height: 314px; } }
 
 .factmain h1 {

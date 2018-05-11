@@ -13,13 +13,15 @@
   }
 }
 
-.carousel, .item {
+.carousel .item {
   @media only screen and (max-width: 414px) {
-    height: 500px;
+    background-image: url("../images/snowflake.jpg");
   }
 }
 
-.item image{
+
+
+.carousel-inner>.item>img {
   @media only screen and (max-width: 414px) {
     height: 314px;
   }
