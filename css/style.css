@@ -6117,6 +6117,7 @@ body {
   margin-bottom: 2%; }
 
 #contact-heading {
+  margin-top: 1em;
   margin-bottom: 1em;
   font-family: 'Delius Unicase', cursive; }
 
@@ -6127,15 +6128,16 @@ body {
       margin-top: 150px; } }
 
 #fish-question {
-  margin-right: 5em;
+  margin-right: 3em;
   margin-bottom: 1em; }
 
 #great {
-  margin-right: 6em; }
+  margin-right: 3em; }
 
 #radio-form {
-  margin-top: 1em;
-  margin-bottom: 2em; }
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 1.2em; }
 
 .quiz {
   position: relitive;
