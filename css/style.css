@@ -5929,6 +5929,11 @@ button.close {
     #gallery-header {
       margin-top: 125px; } }
 
+.nav-color {
+  background-color: #7ba5f8;
+  background-image: url("../images/silver_scales.png");
+  background-blend-mode: luminosity; }
+
 .index-body {
   background-color: grey;
   background-image: url("../images/fresh_snow.png");
