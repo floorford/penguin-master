@@ -1,29 +1,26 @@
 
-.factscontainer {
-	display: grid;
-	grid-template-rows: ;
-	grid-template-columns: (3, auto);
-	max-width: 1200px;
-	margin: 0 auto;
-}
+// .factscontainer {
+// 	display: flex;
+// 	justify-content: center;
+// }
 
 
 
 .factimg {
-	display: grid;
+	// justify-content: center;
 	width: 500px;
 	height: 300px;
-	grid-column: 2;
-
 }
 
 .factp {
+	// justify-content: center;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 15px;
-
 }
 
 .factmain {
 	margin-top: 80px;
+	display: flex;
+	align-content: center;
 }
 
