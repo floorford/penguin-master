@@ -5997,3 +5997,23 @@ body {
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px; } }
+
+.factscontainer {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
+  max-width: 1200px;
+  margin: 0 auto; }
+
+img {
+  display: grid;
+  width: 500px;
+  height: 300px;
+  grid-column: 2; }
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px; }
+
+main {
+  margin-top: 80px; }
