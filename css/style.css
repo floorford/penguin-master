@@ -6094,6 +6094,9 @@ body {
     .map-main {
       margin-top: 125px; } }
 
+.map-main h1, .map-main h3 {
+  font-family: 'Delius Unicase', cursive; }
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
