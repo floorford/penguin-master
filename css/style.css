@@ -10,8 +10,7 @@ html {
   -ms-text-size-adjust: 100%; }
 
 body {
-  margin: 0;
-  background-image: url(picnic.jpg); }
+  margin: 0; }
 
 article,
 aside,
@@ -5882,6 +5881,55 @@ button.close {
     display: none !important; } }
 
 /*# sourceMappingURL=bootstrap.css.map */
+.gallery-container {
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 5%; }
+
+.gallery-left-div1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 2em; }
+
+.gallery-left-div2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin: 2em; }
+
+.gallery-left-div3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  margin: 2em; }
+
+.gallery-right-div1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 2em; }
+
+.gallery-right-div2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 2em; }
+
+.gallery-right-div3 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  margin: 2em; }
+
+.gallery-pic {
+  width: 80%; }
+
+#gallery-header {
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 4em; }
+
+.index-body {
+  background-color: grey;
+  background-image: url("../images/fresh_snow.png");
+  background-blend-mode: hard-light; }
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -5998,6 +6046,7 @@ body {
   .featurette-heading {
     margin-top: 120px; } }
 
+<<<<<<< HEAD
 .factscontainer {
   display: grid;
   grid-template-rows: repeat(4, auto);
@@ -6017,3 +6066,8 @@ p {
 
 main {
   margin-top: 80px; }
+=======
+.map-main {
+  margin-top: 110px;
+  text-align: center; }
+>>>>>>> 35c51d9530c2d6269c670efa0b6f746ba5080742
