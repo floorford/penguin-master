@@ -44,7 +44,9 @@
         </div>
         </div>
 
-	<section style="margin: 100px 70px 70px 70px">
+<section style="margin: 100px 70px 70px 70px">
+
+
 	<h1 id="contact-heading" style="color: purple">Contact Form</h1>
 
 
@@ -58,14 +60,14 @@
 	        <div class="row">
 	            <div class="col-md-6">
 	                <div class="form-group">
-	                    <label for="form_name">First Name *</label>
+	                    <label for="form_name">Genus Name *</label>
 	                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
 	                    <div class="help-block with-errors"></div>
 	                </div>
 	            </div>
 	            <div class="col-md-6">
 	                <div class="form-group">
-	                    <label for="form_lastname">Last Name *</label>
+	                    <label for="form_lastname">Species Name *</label>
 	                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
 	                    <div class="help-block with-errors"></div>
 	                </div>
@@ -74,27 +76,33 @@
 	        <div class="row">
 	            <div class="col-md-6">
 	                <div class="form-group">
-	                    <label for="form_email">Email *</label>
+	                    <label for="form_email">Sea-mail *</label>
 	                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
 	                    <div class="help-block with-errors"></div>
 	                </div>
 	            </div>
 	            <div class="col-md-6">
 	                <div class="form-group">
-	                    <label for="form_phone">Call me Al </label>
+	                    <label for="form_phone">Foam Number </label>
 	                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
 	                    <div class="help-block with-errors"></div>
 	                </div>
 	            </div>
 	        </div>
 	       	<div class="row">
-	            <div class="col-md-12">
-	                <div class="form-group">
 
-						<label for="great">It's Great!  </label>
+	            <div class="col-md-12">
+
+
+	                <div class="form-group" id="radio-form">
+
+
+	                	<label id="fish-question">What do you think of fish?</label>
+
+						<label for="great" style="margin-right: 1em"> <em>It's Great!</em>  </label>
 						<input name="fish" id="great" type="radio" value="great">
 
-						<label for="love-it">I Love It  </label>
+						<label for="love-it" style="margin-right: 1em"><em>I Love It!</em>  </label>
 						<input name="fish" id="love-it" type="radio" value="love-it">
 
 	                </div>

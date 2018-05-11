@@ -5931,6 +5931,9 @@ button.close {
   background-image: url("../images/fresh_snow.png");
   background-blend-mode: hard-light; }
 
+#contact-heading {
+  margin-top: 17em; }
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -6089,3 +6092,18 @@ body {
 .map {
   border: 10px solid aliceblue;
   margin-bottom: 2%; }
+
+#contact-heading {
+  margin-top: 5em;
+  margin-bottom: 1em; }
+
+#fish-question {
+  margin-right: 5em;
+  margin-bottom: 1em; }
+
+#great {
+  margin-right: 6em; }
+
+#radio-form {
+  margin-top: 1em;
+  margin-bottom: 2em; }
