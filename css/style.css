@@ -5925,6 +5925,14 @@ button.close {
   margin-top: 10%;
   text-align: center;
   font-size: 4em; }
+  @media only screen and (max-width: 991px) {
+    #gallery-header {
+      margin-top: 125px; } }
+
+.nav-color {
+  background-color: #7ba5f8;
+  background-image: url("../images/silver_scales.png");
+  background-blend-mode: luminosity; }
 
 .index-body {
   background-color: grey;
